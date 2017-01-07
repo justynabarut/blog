@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog</title>
+    <title>PIONOWY BLOG</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+
   <body>
-    <%= yield %>
+    <div class="container">
+    <header>
+       <h1> PIONOWY BLOG </h1>
+    </header>
+
+      <p> Kochamy przestrzeń pod nogami </p>
+
+    <article>
+      <%= yield %>
+    </article>
+
+    <nav>
+     <ul> Posty
+        <li><a href="#">January</a></li>
+        <li><a href="#">December</a></li>
+     </ul>
+    </nav>
+
+
+    <footer> first blog webschool </footer>
+   </div>
+
   </body>
+
 </html>
