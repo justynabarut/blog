@@ -6,6 +6,11 @@
 </p>
 
 <p>
+  <strong>Title:</strong>
+  <%= @post.title %>
+</p>
+
+<p>
   <strong>Body:</strong>
   <%= @post.body %>
 </p>
@@ -13,6 +18,11 @@
 <p>
   <strong>Pubished:</strong>
   <%= @post.pubished %>
+</p>
+
+<p>
+  <strong>Datetime:</strong>
+  <%= @post.published_at %>
 </p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |

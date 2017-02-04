@@ -17,6 +17,11 @@
   </div>
 
   <div class="field">
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="field">
     <%= f.label :body %>
     <%= f.text_area :body %>
   </div>
@@ -24,6 +29,11 @@
   <div class="field">
     <%= f.label :pubished %>
     <%= f.check_box :pubished %>
+  </div>
+
+  <div class="field">
+    <%= f.label :published_at %>
+    <%= f.datetime_local_field :published_at %>
   </div>
 
   <div class="actions">
