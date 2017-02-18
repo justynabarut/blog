@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resource :about, only: :show
   resources :posts
   resources :comments, only: :create
   root 'posts#index'

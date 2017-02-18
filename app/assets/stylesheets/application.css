@@ -15,8 +15,8 @@
  */
 
 body {
-    background-color: #7fffd4;
-    padding-top: 100px;
+    background-color: #21b297;
+    padding-top: 10px;
 }
 
 div.container {
@@ -28,13 +28,13 @@ div.container {
 header, footer {
     padding: 1em;
     color: white;
-    background-color: #008080;
+    background-color: #4a8286;
     clear: left;
     text-align: center;
 }
 
 h1 {
-    color: #ff0000;
+    color: #234751;
     text-align: center;
     font-family: 'Dosis', sans-serif;
     font-size: 40px;

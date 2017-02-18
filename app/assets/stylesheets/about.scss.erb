@@ -1,0 +1,73 @@
+// Place all the styles related to the about controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-size: 30px;
+  color: #fff;
+  background-color: #21b297;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Amatic SC', cursive;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #4a8286;
+  border-radius: 0;
+  border: 0;
+  height: 150px;
+}
+#logo {
+  width: 100px;
+  height: 100px;
+}
+
+#logo-img {
+ background-image: url(<%= asset_path 'icon.png' %>) no-repeat;
+  width: 70px;
+  height: 70px;
+  margin: 5px 5px 0 0;
+  padding-top: 25px;
+}
+
+.navbar-brand {
+  padding-top: 35px;
+  padding-left: 50px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #234751;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.navbar-brand p span {
+  vertical-align: middle;
+}
+
+div.img {
+  margin: 5px;
+  float: left;
+  width: 40%;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: left;
+}
