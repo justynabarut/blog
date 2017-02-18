@@ -56,7 +56,7 @@
 
   <div class="field">
     <%= f.label :date %>
-    <%= f.datetime_local_field :date %>
+    <%= f.datetime_field :date, value: DateTime.current %>
   </div>
 
   <div class="field">
