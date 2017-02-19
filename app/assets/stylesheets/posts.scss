@@ -4,6 +4,7 @@
 
 body {
     padding: 10px;
+    color: black;
 }
 
 h1 {
@@ -17,5 +18,10 @@ table {
     font-family: verdana;
     font-size: 15px;
     text-align: center;
-    color: #aaf2ff
+    color: #aaf2ff;
+    border: 1px solid black;
+}
+
+.mytime select {
+  background-color: white;
 }
