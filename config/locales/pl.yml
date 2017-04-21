@@ -1,0 +1,11 @@
+pl:
+    activerecord:
+     models:
+       post: Posts
+     attributes:
+       post:
+         Name: Imie
+         Title: Tytul
+         Body: Tekst
+         Published: Opublikowany
+         Datatime: Czas
