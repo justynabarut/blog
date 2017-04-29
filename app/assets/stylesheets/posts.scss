@@ -2,24 +2,32 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
-    padding: 10px;
-    color: black;
-}
 
-h1 {
-    color: #234751;
-    text-align: center;
-    font-family: 'Dosis', sans-serif;
-    font-size: 40px;
+body {
+  background-color: #f7f7e5;
+  color: #160099;
+  font-family: helvetica, verdana, arial, helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  line-height: 18px;
+  margin: 33px;
+  margin-bottom: 100px;
 }
 
 table {
+  border-collapse: collapse;
+  border-radius: 12px;
+  background-color: #99c8c8;
+  text-align: center;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24), 0 10px 40px 0 rgba(0,0,0,0.19);
+
+
+/* table {
     font-family: verdana;
     font-size: 15px;
     text-align: center;
     color: #aaf2ff;
-    border: 1px solid black;
+    border: 1px solid black; */
 }
 
 .mytime select {

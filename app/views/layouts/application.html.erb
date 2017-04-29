@@ -20,6 +20,7 @@
   <body>
     <div class="container">
     <header>
+
        <h1><%= t :title %></h1>
     </header>
 
@@ -27,8 +28,10 @@
 
       <%= link_to 'O mnie', about_path %>
       <!-- link do wewnętrznych stron -->
-      <a href="/justyna.html"><h1>EXPLORE</h1></a>
+
+      <a href="/justyna.html"><h3>EXPLORE</h3></a>
       <!-- a tag do public -->
+
     <article>
       <%= yield %>
     </article>
@@ -43,6 +46,7 @@
 
     <footer> first blog webschool </footer>
 
+    <!-- Language button -->
     <% [:en, :pl].each do |language| %>
     <%= link_to_if (I18n.locale != language), language.upcase, { locale: language } %>
     <% end %>

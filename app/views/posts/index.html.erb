@@ -1,6 +1,10 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Posts</h1>
+<section>
+  <h2>Recent Posts</h2>
+<!-- Chciałabym tu posegregować posty ze znacznikami -->
+  <%= link_to 'Climbing', class: 'button' %>
+  <%= link_to 'Skitouring', class: 'button' %>
 
 <table>
   <thead>
@@ -32,4 +36,6 @@
 
 <br>
 
-<%= link_to 'New Post', new_post_path %>
+<%= link_to 'New Post', new_post_path, class: 'button' %>
+
+<section>

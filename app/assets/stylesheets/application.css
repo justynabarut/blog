@@ -14,9 +14,17 @@
  *= require_self
  */
 
+
 body {
-    background-color: #21b297;
-    padding-top: 10px;
+  background-color: #f7f7e5;
+  color: #007777;
+  font-family: helvetica, verdana, arial, helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 33px;
+  /*background-image: url(<%= asset_path 'icon.jpg' %>);
+  background-repeat: repeat-x; */
+  margin-bottom: 100px;
 }
 
 div.container {
@@ -27,17 +35,24 @@ div.container {
 
 header, footer {
     padding: 1em;
-    color: white;
-    background-color: #4a8286;
+    color: #f7f7e5;
+    background-color: #4c9f9f;
     clear: left;
     text-align: center;
 }
 
 h1 {
-    color: #234751;
+    color: #e0301e;
     text-align: center;
     font-family: 'Dosis', sans-serif;
-    font-size: 40px;
+    font-size: 100px;
+}
+
+h3 {
+    color: #234751;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
 }
 
 p {
@@ -67,4 +82,15 @@ article {
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 12px;
+  background-color: $background-color;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24), 0 10px 40px 0 rgba(0,0,0,0.19);
+
+tbody {
+  border-bottom: 1px solid #f7f7e5;
+  text-align: center;
 }
