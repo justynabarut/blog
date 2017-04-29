@@ -1,11 +1,12 @@
 pl:
-    activerecord:
-     models:
-       post: Posts
-     attributes:
-       post:
-         Name: Imie
-         Title: Tytul
-         Body: Tekst
-         Published: Opublikowany
-         Datatime: Czas
+  title: Pionowy Blog
+  activerecord:
+    models:
+      post: Posts
+    attributes:
+      post:
+        name: Imie
+        title: Tytul
+        body: Tekst
+        published: Opublikowany
+        published_at: Czas
