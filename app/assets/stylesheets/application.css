@@ -87,7 +87,7 @@ article {
 table {
   border-collapse: collapse;
   border-radius: 12px;
-  background-color: $background-color;
+  /*background-color: background-color;*/
   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24), 0 10px 40px 0 rgba(0,0,0,0.19);
 }
 
