@@ -24,6 +24,14 @@ class PostsController < ApplicationController
     @post = Post.new
   end
 
+  def index
+    if params[:tag]
+      @posts = Post.tagged_with(params[:tag])
+    else
+      @posts = Post.all
+    end
+  end
+
   # GET /posts/1/edit
   def edit
   end
@@ -76,6 +84,6 @@ class PostsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def post_params
-      params.require(:post).permit(:name, :body, :pubished, :title, :published_at)
+      params.require(:post).permit(:tag_list, :name, :body, :pubished, :title, :published_at)
     end
 end

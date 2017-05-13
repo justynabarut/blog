@@ -12,6 +12,11 @@
   <% end %>
 
   <div class="field">
+    <%= f.label :tag_list, "Tags (separated by commas)" %><br />
+    <%= f.text_field :tag_list %>
+  </div>
+
+  <div class="field">
     <%= f.label :name %>
     <%= f.text_field :name %>
   </div>
@@ -39,4 +44,5 @@
   <div class="actions">
     <%= f.submit %>
   </div>
+
 <% end %>
